@@ -96,4 +96,3 @@ echo $var # 10
 - `.` Current directory.
 - `:` Null command.
 - `()` Subshell is created to process the code inside. Can be used for array initialization.
-- `{}` Can be used to create.
