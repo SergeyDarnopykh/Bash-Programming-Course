@@ -1,6 +1,6 @@
 # Unique Characters
 
-## `'#'`
+## `#`
 
 ### Comments 
 ```bash 
@@ -28,7 +28,7 @@ echo $(( 2#1010 )) # 10
 ```
 
 
-## `','` 
+## `,` 
 
 ### Expression separator 
 
@@ -51,7 +51,7 @@ echo ${awesome,} # i Am Awesome
 echo ${awesome,,} # i am awesome
 ```
 
-## `'{}'`
+## `{}`
 
 ### Add characters to the beginning and the end of string elements
 
@@ -96,3 +96,5 @@ echo $var # 10
 - `.` Current directory.
 - `:` Null command.
 - `()` Subshell is created to process the code inside. Can be used for array initialization.
+- `-` (`--`) Parameter prefix. Also a minus.
+- `^` Used for uppercase conversion just like `,` for lowecase conversion.
