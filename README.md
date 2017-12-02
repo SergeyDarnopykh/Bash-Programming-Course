@@ -61,8 +61,8 @@
 - [ ] Globing
 
 ## Input Output Redirection
-- [ ] `Stdout`, `Stdin`, `Stderr` part1
-- [ ] `Stdout`, `Stdin`, `Stderr` part2 
+- [ ] `Stdout`, `Stdin`, `Stderr` part 1
+- [ ] `Stdout`, `Stdin`, `Stderr` part 2 
 
 ## Functions
 - [ ] Functions part 1
