@@ -41,8 +41,8 @@
 - [x] `For` loop
 - [x] `While` loop
 - [x] `Until` loop
-- [x] `Break` and `Continute` part 1
-- [ ] `Break` and `Continute` part 2
+- [x] `Break` and `Continue` part 1
+- [ ] `Break` and `Continue` part 2
 - [ ] `Case` constuct
 - [ ] `Select` construct
 
