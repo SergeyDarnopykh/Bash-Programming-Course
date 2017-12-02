@@ -27,7 +27,6 @@ echo "There is ${#variable} characters in $variable"
 echo $(( 2#1010 )) # 10
 ```
 
-
 ## `,` 
 
 ### Expression separator 

@@ -1,7 +1,6 @@
 # Variables and Parameters
 
-
-### Set variable to null
+## Set variable to null
 
 ```bash
 var="Hi"
@@ -12,7 +11,7 @@ echo $var #
 ```
 
 
-### Set variable to someting
+## Set variable to someting
 
 1. Direct assignment
 ```bash 
@@ -26,7 +25,7 @@ read -p "Input variable: " var2 # -p to add message before user input
 ```
 
 
-### Output variable
+## Output variable
 
 Always use `""` to output a variable to save all of the spaces/newlines.
 ```bash
@@ -37,7 +36,7 @@ echo "$var" # Hi there   my    friend
 ```
 
 
-### Assign the output of the command(s) to a variable
+## Assign the output of the command(s) to a variable
 
 ```bash
 string=$( echo "Hi there" )
@@ -46,7 +45,7 @@ echo "$string" # Hi there
 ```
 
 
-### `let` for ariphmetic operations
+## `let` for ariphmetic operations
 ```bash
 number=100
 
@@ -55,7 +54,7 @@ echo "$number" # 200
 ```
 
 
-### Replacing smth in a number.
+## Replacing smth in a number.
 
 It can be used for conversion
 ```bash
@@ -65,7 +64,7 @@ number=${number/F/16}
 echo "$number" # 16
 ```
 
-### Passed parameters
+## Passed parameters
 
 - `$i` i-th argument (or `${i}`, if `i` is greater or equal to `10`) 
 - `$@` all arguments
@@ -73,7 +72,7 @@ echo "$number" # 16
 - `$#` total number of passed argument 
 
 
-### Small things
+## Small things
 
 - `null` is `0` in ariphmetic operations
 - any string is `0` in ariphmetic operations
