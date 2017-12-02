@@ -1,7 +1,7 @@
 # Bash Programming
 
 ## Introduction
-- [x] Into
+- [x] Intro
 
 ## Setting up the environment
 - [x] Set up part 1
@@ -27,8 +27,8 @@
 - [x]  Return Values part 2
 
 ## Conditional Statements
-- [ ] Conditional Statements part 1
-- [ ] Conditional Statements part 2
+- [x] Conditional Statements part 1
+- [x] Conditional Statements part 2
 
 ## Variables Continued
 - [ ] Built in variables part 1

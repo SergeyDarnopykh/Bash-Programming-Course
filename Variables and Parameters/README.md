@@ -72,7 +72,7 @@ echo "$number" # 16
 - `$#` total number of passed argument 
 
 
-## Small things
+## Little things
 
 - `null` is `0` in ariphmetic operations
 - any string is `0` in ariphmetic operations
