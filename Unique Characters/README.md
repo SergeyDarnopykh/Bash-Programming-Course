@@ -52,13 +52,6 @@ echo ${awesome,,} # i am awesome
 
 ## `{}`
 
-### Add characters to the beginning and the end of string elements
-
-DOES NOT WORK
-```bash
-echo \$ {test1, test2, test3}\$ # #Hi$ #there$ #you$
-```
-
 ### Move multiple files content to one file
 ```bash
 cat {file1, file2, file3, file4, file5, file6, file7} > finalFile
@@ -83,19 +76,19 @@ echo $var # 10
 
 ## Other characters
 
-- `""` Partial quoting. You can insert variables in the string.
-- `''` Content inside is taken literally.
-- ` `` ` Redirects commands output.
-- `a > b` a's output redirected to b's input. b is rewrited.
-- `a >> b` a's output redirected to b's input. b is NOT rewrited, data is written to the end of b.
-- `\` The character after this one will be taken like any other normal character. Also a division.
-- `*` It is a mask character. Means everything. Also a multiplication.
-- `**` Exponentiation.
-- `? :` Ternary operator, works just like in javascript. 
-- `.` Current directory.
-- `:` Null command.
-- `()` Subshell is created to process the code inside. Can be used for array initialization.
-- `-` (`--`) Parameter prefix. Also a minus.
-- `^` and `^^` Used for uppercase conversion just like `,` and `,,` for lowecase conversion.
-- `~+` the value of shell variable `pwd` (current directory) replaces tilde-prefix.
-- `~-` the value of shell variable `oldpwd` (previous directory) replaces tilde-prefix. 
+- `""` - partial quoting. You can insert variables in the string.
+- `''` - content inside is taken literally.
+- ` `` ` - redirects commands output.
+- `a > b` - a's output redirected to b's input. b is rewrited.
+- `a >> b` - a's output redirected to b's input. b is NOT rewrited, data is written to the end of b.
+- `\` - the character after this one will be taken like any other normal character. Also a division.
+- `*` - a mask character. Means everything. Also a multiplication.
+- `**` - exponentiation.
+- `? :` - ternary operator, works just like in javascript. 
+- `.` - current directory.
+- `:` - null command.
+- `()` - subshell is created to process the code inside. Can be used for array initialization.
+- `-` (`--`) - parameter prefix. Also a minus.
+- `^`, `^^` - used for uppercase conversion just like `,` and `,,` for lowecase conversion.
+- `~+` - the value of shell variable `pwd` (current directory) replaces tilde-prefix.
+- `~-` - the value of shell variable `oldpwd` (previous directory) replaces tilde-prefix. 

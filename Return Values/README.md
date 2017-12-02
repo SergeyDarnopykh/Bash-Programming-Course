@@ -1,6 +1,6 @@
 # Return Values
 
-- `$?` Return exit code of the last command
-- `cmp` For comparing files by 1 byte at a time
-- `&>` Redirect stdout and stderr
-- `/dev/null` Blackhole in Linux/Unix world. All that you put there is going to nowhere.
+- `$?` - return exit code of the last command.
+- `cmp` - for comparing files by 1 byte at a time.
+- `&>` - redirect stdout and stderr.
+- `/dev/null` - blackhole in Linux/Unix world. All that you put there is going to nowhere.

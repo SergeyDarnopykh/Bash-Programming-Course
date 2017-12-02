@@ -34,13 +34,13 @@ fi
 
 ## Little things
 
-- `elif` statement is just like `else if` in javascript
-- `-e` returns true if the file exists
-- `-z` returns true if the string is empty (has zero length)
-- `-f` returns true if the file exists and is a regular file (not a directory or device file)
-- `-s` returns true if the file exists and is not zero size (there's something in it)
-- `-r`  returns true if the file exists and the user has the permission to read the file
-- `-x` returns true if the file exists and the user has the permission to execute the file
-- `-w` returns true if the file exists and the user has the permission to write to the file 
-- `!`  reverses the result of the operator
-- `(( some arithmetic expression ))` gives exit code `1`, if the expression is `false` or equal to `0`, and `0`, if the expression is `true` or not equal to `0`
+- `elif` statement is just like `else if` in javascript.
+- `-e` returns true if the file exists.
+- `-z` returns true if the string is empty (has zero length).
+- `-f` returns true if the file exists and is a regular file (not a directory or device file).
+- `-s` returns true if the file exists and is not zero size (there's something in it).
+- `-r` returns true if the file exists and the user has the permission to read the file.
+- `-x` returns true if the file exists and the user has the permission to execute the file.
+- `-w` returns true if the file exists and the user has the permission to write to the file. 
+- `!`  reverses the result of the operator.
+- `(( some arithmetic expression ))` gives exit code `1`, if the expression is `false` or equal to `0`, and `0`, if the expression is `true` or not equal to `0`.

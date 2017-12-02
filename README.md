@@ -8,13 +8,13 @@
 - [x] Set up part 2
 
 ## Unique Characters
-- [x] Terminal customization and hash character
-- [x] Characters `#` `;`
-- [x] Characters `.`, `""`, `''`, `,`, `,,`
+- [x] Terminal customization and `#`
+- [x] `#` `;`
+- [x] `.`, `""`, `''`, `,`, `,,`
 - [x] `\`, `/`, `backquote`,  `null` command
 - [x] `!`, `*`, `?`
 - [x]  `()`, `{}`
-- [x] Characters `||`, `&&`, `-`, `%`, `~`, `~+`, `~-`, `^`, `^^`
+- [x] `||`, `&&`, `-`, `%`, `~`, `~+`, `~-`, `^`, `^^`
 
 ## Variables and Parameters
 - [x]  Variables and Parameters part 1
@@ -31,13 +31,21 @@
 - [x] Conditional Statements part 2
 
 ## Variables Continued
-- [ ] Built in variables part 1
-- [ ] Built in variables part 2
-- [ ] Built in variables part 3
-- [ ] Modifying the properties of variables
-- [ ] Random number generation
+- [x] Built in variables part 1
+- [x] Built in variables part 2
+- [x] Built in variables part 3
+- [x] Modifying the properties of variables
+- [x] Random number generation
 
 ## Loops
+- [] `For` loop
+- [] `While` loop
+- [] `Until` loop
+- [] `Break` and `Continute` part 1
+- [] `Break` and `Continute` part 2
+- [] `Case` constuct
+- [] `Select` construct
+
 
 ## Internal commands
 

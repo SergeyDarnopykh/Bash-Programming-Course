@@ -66,14 +66,14 @@ echo "$number" # 16
 
 ## Passed parameters
 
-- `$i` i-th argument (or `${i}`, if `i` is greater or equal to `10`) 
-- `$@` all arguments
-- `$0` name of the script
-- `$#` total number of passed argument 
+- `$i` - i-th argument (or `${i}`, if `i` is greater or equal to `10`).
+- `$@` - all passed arguments.
+- `$0` - name of the script.
+- `$#` - total number of passed arguments. 
 
 
 ## Little things
 
-- `null` is `0` in ariphmetic operations
-- any string is `0` in ariphmetic operations
-- `-n` will return `true` if the parameter is specified
+- `null` is `0` in ariphmetic operations.
+- any string is `0` in ariphmetic operations.
+- `-n` will return `true` if the parameter is specified.
