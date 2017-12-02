@@ -96,4 +96,6 @@ echo $var # 10
 - `:` Null command.
 - `()` Subshell is created to process the code inside. Can be used for array initialization.
 - `-` (`--`) Parameter prefix. Also a minus.
-- `^` Used for uppercase conversion just like `,` for lowecase conversion.
+- `^` and `^^` Used for uppercase conversion just like `,` and `,,` for lowecase conversion.
+- `~+` the value of shell variable `pwd` (current directory) replaces tilde-prefix.
+- `~-` the value of shell variable `oldpwd` (previous directory) replaces tilde-prefix. 

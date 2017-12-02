@@ -9,12 +9,12 @@
 
 ## Unique Characters
 - [x] Terminal customization and hash character
-- [x] Characters Hash SemiColon
-- [x] Characters Dot Double quotes Single quotes Comma Double comma
-- [x] Backslash Slash Backquote Null command
-- [x] [exclamation mark] [asterix] [question mark]
-- [x]  Parenthesis and Curly braces
-- [x] Characters OR AND Dash Modulo Tilde Plus Tilde Minus Caret Double Caret
+- [x] Characters `#` `;`
+- [x] Characters `.`, `""`, `''`, `,`, `,,`
+- [x] `\`, `/`, `backquote`,  `null` command
+- [x] `!`, `*`, `?`
+- [x]  `()`, `{}`
+- [x] Characters `||`, `&&`, `-`, `%`, `~`, `~+`, `~-`, `^`, `^^`
 
 ## Variables and Parameters
 - [x]  Variables and Parameters part 1
@@ -27,8 +27,15 @@
 - [x]  Return Values part 2
 
 ## Conditional Statements
+- [ ] Conditional Statements part 1
+- [ ] Conditional Statements part 2
 
 ## Variables Continued
+- [ ] Built in variables part 1
+- [ ] Built in variables part 2
+- [ ] Built in variables part 3
+- [ ] Modifying the properties of variables
+- [ ] Random number generation
 
 ## Loops
 
