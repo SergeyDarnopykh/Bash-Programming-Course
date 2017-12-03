@@ -42,9 +42,9 @@
 - [x] `While` loop
 - [x] `Until` loop
 - [x] `Break` and `Continue` part 1
-- [ ] `Break` and `Continue` part 2
-- [ ] `Case` constuct
-- [ ] `Select` construct
+- [x] `Break` and `Continue` part 2
+- [x] `Case` constuct
+- [x] `Select` construct
 
 ## Internal commands
 - [ ] `Printf`
